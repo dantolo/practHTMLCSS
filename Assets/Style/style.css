@@ -1,0 +1,27 @@
+p{
+    background-color: blue;      
+}
+
+#Rey
+{
+    font-size: xx-large;
+}
+
+.CH35{
+    color: blue;
+}
+.generation{
+    width: 1000;
+    height: 1000;
+    margin: 20px 50px;
+    padding: 30px;
+    border: solid seashell;
+
+}
+div{ 
+    width: 200;
+    height: 200;
+    margin: 20px 50px;
+    padding: 30px;
+    border: solid seashell;
+}

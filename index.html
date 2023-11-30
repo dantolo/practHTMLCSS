@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Introduccion a CSS</title>
+  <link rel="stylesheet" href=".\Assets\Style\style.css">
+</head>
+<body>
+<!--
+Tenemos tres formas diferentes de agregar estilos a un documento HTML
+Inline (En linea)
+
+Para trabajar con los estilos in line utilizamos la palabra reservada style y con esto ya le damos la instruccion de lo que queremos añadir, tiene mayor jerarquia sobre la etiqueta style.
+-->
+
+<h1>Inline</h1>
+<P style="background-color: aqua; color: blueviolet; font-size:xx-large" ;> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt molestias impedit maiores est dicta, recusandae reiciendis assumenda non eum. Non, dolor dignissimos! Eaque sed repellat possimus atque error quae ullam.</P>
+
+<!--
+Utilizando la etiqueta <style>
+Cuando usamos los estilos dentro de la etiqueta style, "separamos" los estilos de la etiqueta   para mantener un codigo limpio y claro. 
+-->
+<style>
+
+body {
+    background-color: brown;
+}
+
+</style>
+<P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio corporis voluptatum inventore. Amet maxime laborum excepturi libero maiores dolores, soluta vitae illum quis recusandae nostrum reprehenderit, pariatur, ipsa numquam optio.</P>
+<!--
+Codigo mas limpio   
+codigo mas entendible 
+velocidad de lectura en nuestra pagina
+escalabilidad
+utilizar estilos de un documento externo
+significa que vamos a tener dos documentos; uno para html index.html cono la estructura y por otro lado tenemos el documento llamado style.css para darle estilo
+
+-->
+<P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam eligendi ex voluptatem ad harum quia, sit odio neque quae ducimus sed labore libero ipsum possimus consequatur, quisquam, nemo nisi cum!</P>
+<!--
+Clases y ID
+todos pertenecemos a ch35 nuestro id seria nuestro nombre 
+# es para id 
+. es para class
+-->
+<div class="generation">
+    <h2 class="CH35" id="Rey">Rey</h2>
+    <h2 class="CH35" id="Or">Or</h2>
+</div>
+
+<div>
+<h2 class="CH35" id="Aime">Aime</h2>
+<h2 class="CH35" id="Ric">Ric</h2>
+</div>
+<!--
+  el modelo de caja nos permite establecer el diseño de nuestros sitios web, 
+-->
+</body>
+</html>
